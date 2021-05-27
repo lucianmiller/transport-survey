@@ -11,5 +11,6 @@ $(document).ready(function(){
       const funTransportationMode = $(this).val();
       $('#fun-responses').append(funTransportationMode + "<br>");
     });
+    $('#transportation_survey').hide();
   });
 });
